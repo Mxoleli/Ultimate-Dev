@@ -1,0 +1,159 @@
+html,
+body,
+.cover{
+    height: 100%;
+}
+
+.cover{
+    background: url('img/main.jpg') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+
+}
+
+.cover-text{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+.cover-text h1{
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+nav.navbar-inverse{
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+
+}
+
+.testimonial{
+    background: #222;
+}
+blockquote{
+    border: none;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-size: 32px;
+    color:white;
+}
+
+blockquote cite{
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color:#888;
+    margin-top: 40px;
+
+
+}
+
+section{
+    padding: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+
+}
+ h2 + p{
+    text-align: center;
+    margin-top: -60px;
+ }
+
+#team{
+    background: url('img/fan.jpg') top left no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif; 
+}
+
+/*-- welcome --*/
+.about.w3layouts-agileinfo, .services, .news-section, .testimonials, .gallery.w3layouts-agile, .team, .contact {
+    padding: 5em 0em;
+    text-align:center;
+}
+.about-wel {
+    text-align: left;
+}
+h3.top-about, h3.w3stitle, h3.tittle, h3.w3l_head.w3l_head1, .gallery-top.wthee-agileinfo h3, .about-heading h3, .contact h3{
+    color: #4baf4f;
+    font-size: 3em;
+    text-transform:uppercase;
+}
+.about-top, .services-w3ls-row, .news-left, section .da-thumbs, .agile_testimonials_grids, .agileinfo-team-grids, .contact-us1-bottom{
+  margin-top: 4em;
+}
+.about-img {
+    padding-top: 1em;
+}
+.about-img1{
+    padding:0 0.5em 0 0;
+}
+.about-img2{
+    padding:0 0 0 0.5em;
+}
+.about-wel p {
+    font-size: 1.1em;
+    color: #545151;
+    line-height: 1.9em;
+    margin: 1em 0 1.5em;
+}
+.about-wel h5{
+    font-size:1.6em;
+    text-transform:uppercase;
+    color:#f44236;
+    text-decoration: none;
+}
+.about-wel ul li{
+    list-style: none;
+}
+.about-wel ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1em;
+    line-height: 1.9em;
+    margin-top: 0.5em;
+    display: inherit;
+}
+.about-wel ul li a:hover {
+    color: #f44236;
+}
+.about-wel ul li a i{
+    margin: 0 10px 0 0;
+    color: #f44236;
+}
+/*-- //welcome --*/ 
+
+/* Media Queries */
+@media only screen and (max-width: 568px){
+
+    .cover h1{
+
+        font-size: 40px;
+    }
+
+    section{
+        padding: 20px;
+    }
+}
